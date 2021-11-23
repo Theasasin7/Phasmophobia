@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "October_Crow";
+    src: url(October_Crow.ttf) format("truetype");
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5rem;
+    header {
+        a {
+            text-decoration: none;
+            letter-spacing: 0.03rem;
+        }
+    }
+    main {
+        h1 {
+            font-size: 3rem;
+        }
+        .table {
+            letter-spacing: 0.1rem;
+        }
+    }
+}
+
+h1, h2 {
+    font-family: 'October_Crow';
+    letter-spacing: 0.2rem;
+}
+
+.content__olist {
+    text-align: left;
+}

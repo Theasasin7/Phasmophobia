@@ -1,0 +1,33 @@
+body {
+    color: white;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, #ffffff66 0%, #00000040 200%);
+    background-blend-mode: multiply;
+    header {
+        background: linear-gradient(to bottom, #ffffff26 0%, #00000026 100%), radial-gradient(at top center, #ffffff66 0%, #00000066 120%) #989898;
+        background-blend-mode: multiply,multiply;
+    }
+    main{
+        h1, h2{
+            text-shadow: 0.1em 0.1em 0.2em #ffffff66;
+        }
+    }
+    .table {
+        background: linear-gradient(to bottom, #ffffff26 0%, #00000026 100%), radial-gradient(at top center, #ffffff66 0%, #00000066 120%) #989898;
+        background-blend-mode: multiply,multiply;
+        color: white;
+    }
+    fieldset {
+        background: linear-gradient(to bottom, #ffffff26 0%, #00000026 100%), radial-gradient(at top center, #ffffff66 0%, #00000066 120%) #989898;
+        background-blend-mode: multiply,multiply;
+        .btn {
+            &__style {
+                color: white;
+                background: #5f5f5f;
+            }
+        }
+    }
+    footer {
+        background: linear-gradient(to bottom, #ffffff26 0%, #00000026 100%), radial-gradient(at top center, #ffffff66 0%, #00000066 120%) #989898;
+        background-blend-mode: multiply,multiply;
+    }
+}
