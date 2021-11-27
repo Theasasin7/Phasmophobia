@@ -67,7 +67,50 @@ main {
             margin: 1rem auto;
         }
     }
-    
+    .container {
+    display: grid;
+    grid-template-columns: 1.1fr 0.6fr 1.3fr; 
+    grid-template-rows: 1.2fr 0.8fr 0.8fr 1.2fr;
+    gap: 10px 5px;
+    height: 45vh;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "ghost ghost torn"
+    "sil mouth torn"
+    "sil hunt torn"
+    "collage collage torn";
+    }
+
+    .collage {
+        grid-area: collage;
+        background: url("../images/ghosts.jpg") no-repeat center/cover;
+    }
+
+    .torn {
+        grid-area: torn;
+        background: url("../images/torn-face.png") no-repeat center/cover;
+    }
+
+    .hunt {
+        grid-area: hunt;
+        background: url("../images/ghost.jpg") no-repeat center/cover;
+    }
+
+    .ghost {
+        grid-area: ghost;
+        background: url("../images/lady-ghost.jpg") no-repeat center/cover;
+    }
+
+    .mouth {
+        grid-area: mouth;
+        background: url("../images/mouth-face.jpg") no-repeat center/cover;
+    }
+
+    .sil {
+        grid-area: sil;
+        background: url("../images/silhouette.jpg") no-repeat center/cover;
+    }
+
     .table {
         border: 1px solid white;
     }

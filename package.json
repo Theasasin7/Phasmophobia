@@ -1,7 +1,7 @@
 {
-  "name": "desafio-sass",
+  "name": "phasmophobia",
   "version": "1.0.0",
-  "description": "",
+  "description": "its a website of a game about paranormal events in houses",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
