@@ -1,0 +1,18 @@
+h1, h2{
+    text-shadow: 0.1em 0.1em 0.2em $clr-shadow;
+    font-family: 'October_Crow';
+    letter-spacing: 0.2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h1:hover {
+    animation: heartbeat;
+    animation-duration: 2s;
+}
+
+h1, h2, h3 {
+    padding: 1rem;
+}

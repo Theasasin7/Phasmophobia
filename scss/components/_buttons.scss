@@ -1,0 +1,9 @@
+.btn {
+    &__style {
+        color: $clr-light;
+        background: $clr-btn;
+    }
+    &-primary {
+        @include button-variant($clr-btn, $clr-light, $clr-light, $btn-hover, $clr-light,$clr-lightgray);
+    }
+}

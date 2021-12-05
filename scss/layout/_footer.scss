@@ -1,0 +1,16 @@
+footer {
+    @extend .section-bg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid $clr-light;
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        li {
+            margin: 10px;
+        }
+    }
+}

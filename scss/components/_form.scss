@@ -1,0 +1,16 @@
+form {
+    margin-bottom: 1rem;
+    fieldset {
+        @extend .section-bg;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $clr-light;
+            legend {
+            text-align: center;
+            margin: 1rem;
+        }
+        
+    }
+}

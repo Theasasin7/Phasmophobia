@@ -1,0 +1,18 @@
+.intro {
+    text-align: center;
+    &__text {
+        padding: 1rem;
+    }
+}
+.video {
+    text-align: center;
+    &--width {
+        width: 320px;
+    }
+}
+.table {
+    @extend .section-bg;
+    color: $clr-light;
+    letter-spacing: 0.1rem;
+    border: 1px solid $clr-light;
+}

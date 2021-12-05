@@ -1,3 +1,35 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5rem;
+    color: $clr-light;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, #ffffff66 0%, #00000040 200%);
+    background-blend-mode: multiply;
+    .section-bg {
+        background: linear-gradient(to bottom, #ffffff26 0%, #00000026 100%), radial-gradient(at top center, #ffffff66 0%, #00000066 120%) $clr-lightgray;
+        background-blend-mode: multiply,multiply;
+    }
+    .content {
+    text-align: center;
+        &__image {
+            width: 300px;
+            height: 200px;
+            margin-bottom: 1rem;
+        }
+        &__text {
+            text-align: center;
+            padding: 1rem 0;
+        }
+        &__ulist {
+            list-style: none;
+        }
+        &__olist {
+            width: 15rem;
+            margin: 1rem auto;
+            text-align: left;
+        }
+    }
+}
+
 @media (min-width: 768px){
     body {
         header {
@@ -8,8 +40,8 @@
                 font-size: 1rem;
             }
             li {
-                border: 2px outset white;
-                background: #5f5f5f;
+                border: 2px outset $clr-light;
+                background: $clr-btn;
             }
         }
         main {
@@ -25,12 +57,6 @@
                 }
             }
         }
-    }
-}
-
-@media (min-width: 992px){
-    .collage {
-        padding-top: 15rem;
     }
 }
 
