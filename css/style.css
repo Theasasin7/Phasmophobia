@@ -7985,9 +7985,7 @@ footer {
   gap: 0px 0px;
   height: 62vh;
   grid-auto-flow: row;
-  grid-template-areas: ". torn ."
- ". torn ."
- ". torn ."; }
+  grid-template-areas: ". torn ." ". torn ." ". torn ."; }
 
 @media (min-width: 420px) {
   .gallery {
@@ -8006,10 +8004,7 @@ footer {
     height: 45vh;
     padding: 0 1rem;
     grid-auto-flow: row;
-    grid-template-areas: "ghost ghost torn"
- "sil mouth torn"
- "sil hunt torn"
- "collage collage torn"; } }
+    grid-template-areas: "ghost ghost torn" "sil mouth torn" "sil hunt torn" "collage collage torn"; } }
 
 .collage {
   grid-area: collage;
@@ -8040,7 +8035,3 @@ footer {
     padding: 0 5rem; }
   .collage {
     padding-top: 15rem; } }
-
-    img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
-  display:none;
-}
